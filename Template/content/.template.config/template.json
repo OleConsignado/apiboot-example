@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Ole Consignado",
+  "classifications": [ "WebAPI" ],
+  "identity": "ApiBoot",
+  "name": "ApiBoot",
+  "shortName": "apiboot",
+  "sourceName": "ApiBootExample"
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }  
+}

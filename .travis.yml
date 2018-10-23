@@ -1,0 +1,17 @@
+language: csharp
+dotnet: 2.1.300-preview2
+mono: none
+
+install: 
+- bash ./cicd.sh install
+
+script:
+- bash ./cicd.sh build
+
+deploy:
+  provider: script
+  #skip_cleanup: true
+  script: bash ./cicd.sh deploy
+  on:
+    branch: release  
+    tags: true
