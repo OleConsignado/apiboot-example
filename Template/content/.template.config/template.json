@@ -5,7 +5,7 @@
   "identity": "ApiBoot",
   "name": "ApiBoot",
   "shortName": "apiboot",
-  "sourceName": "ApiBootExample"
+  "sourceName": "ApiBootExample",
   "tags": {
     "language": "C#",
     "type": "project"
