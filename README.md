@@ -8,7 +8,7 @@ This reposiotory contains a sample/template project which uses **Otc.AspNetCore.
 ```sh
 $ dotnet new -i apiboot
 ``` 
-**Creating a project**
+**Create a new project**
 
 ```sh
 $ dotnet new apiboot --name=MyProjectName
